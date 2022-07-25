@@ -1,4 +1,4 @@
-entrypoint = "index.js"
+entrypoint = "Coding Challenges/Arrays/Paritioning Arrays.js"
 
 [interpreter]
 command = [
