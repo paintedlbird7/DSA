@@ -1,3 +1,4 @@
+
 function removeDuplicates(arr) {
     // index of the next non-duplicate element
     let nextNonDuplicate = 1;
