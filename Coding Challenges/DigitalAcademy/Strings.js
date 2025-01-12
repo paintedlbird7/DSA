@@ -24,7 +24,38 @@ console.log(statement);
 
 
 
+let name = "Alice"
+console.log( `Hello, ${name}!`)
 
+let age = 25;
+console.log("My name is "+name+" and I am "+age+" years old.");
+
+let poem = `Roses are Red,
+            Violets are Blue,
+            They are beautiful,
+            And so are You.`
+console.log(poem);
+
+let sentence = "JavaScript is awesome!"
+let position = sentence.indexOf("is");
+console.log(position)
+
+// let userName = prompt("What is your name", "Guest");
+
+let age = prompt("How old are you?");
+if (age !== null) {
+    console.log("You are " + age + " years old");
+} else {
+    console.log("User cancelled the prompt.");
+} 
+
+// increment
+let num = 0;
+function increment(){
+ num++
+}
+increment();
+console.log(num); // 1
 
 
 
