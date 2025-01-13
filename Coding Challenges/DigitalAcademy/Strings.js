@@ -50,4 +50,19 @@ if (age !== null) {
 } 
 
 // increment
-let nu
+let num = 0;
+function increment(){
+ num++
+}
+increment();
+console.log(num); // 1
+
+
+
+
+
+
+
+
+    
+    
