@@ -74,8 +74,7 @@ function checkIfBuckledUp(userIsBuckled){
 checkIfBuckledUp(true);  // Output: You deserve a safe driver discount!
 checkIfBuckledUp(false); // Output: Click it or ticket!
 
-function negotiate(price){
-    
+function negotiate(price){    
     // The price variable will be a number
   if (price < 5){
    console.log("I'll take it!")
@@ -87,3 +86,48 @@ function negotiate(price){
 }
 
 negotiate(11);
+
+function echoChamber(){
+  for(let i=0;i<3;i++){
+   console.log("Hello")
+ }
+}
+echoChamber();
+
+const cookies = ["chocolate chip", "gingersnap", "oatmeal raisin", "shortbread"];
+for (let i = 0; i < cookies.length; i++) {
+    console.log(cookies[i]);
+}
+
+const characters = ["Garnet", "Amethyst", "Pearl", "Steven"];
+function rollCall(){
+ for (let i=0; i<characters.length; i++){
+  console.log(characters[i]);
+ }
+}
+// Call the function
+rollCall();
+
+let number = 0;
+while (number < 11) {
+   console.log(number); // Log the current value of number
+    number = number + 1; // Increment number by 1
+}
+
+//  x Infinite Loop! x
+// let number = 10;
+// while (number < 500) {
+//     number = number - 1;
+// }
+
+let investment = 1000; // Initial investment amount
+for (let year = 1; year <= 10; year++) {
+  if (year === 7) {
+    // Year 7: Investment loses 75%
+    investment -= investment * 0.75;
+  } else {
+    // Other years: Investment increases by 10%
+    investment += investment * 0.10;
+  }
+  console.log(`Years: ${year} Value: ${investment.toFixed(2)}`);
+}
