@@ -21,4 +21,16 @@ function mystery(a, b = 3) {
   }
   console.log(sum(1,2));
   
-  // Arrow Function  
+// Arrow Function
+const greeting = (name) => {
+  console.log("Hello "+name+"!")
+}
+ greet2("Rosa Maria");
+
+// Global Variables
+let globalVar = "I am a global variable"
+
+function printGlobVar (){
+ console.log(globalVar);
+}
+printGlobVar();
