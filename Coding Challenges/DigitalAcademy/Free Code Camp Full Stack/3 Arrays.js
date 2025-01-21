@@ -36,3 +36,23 @@ let arr3 = ['a', 'b', 'c'];
 arr.unshift('x', 'y');
 arr.pop();
 console.log(arr3);
+
+// Arrays Part 2
+
+// includes method
+let fruits = ["apple", "banana", "orange", "mango"];
+console.log(fruits.includes("banana")); // true
+console.log(fruits.includes("grapes")); // false
+
+// Split
+let str = "hello"
+let charArray = str.split('');
+console.log(charArray);
+
+let charArray2 = ["h","e","l","l","o"];
+charArray2.reverse();
+console.log(charArray2)
+
+let reversedArray = ["o","l","l","e","h"];
+let reversedString = reversedArray.join('');
+console.log(reversedString)
