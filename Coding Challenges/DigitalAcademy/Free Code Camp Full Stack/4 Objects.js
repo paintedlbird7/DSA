@@ -22,4 +22,6 @@ const person = {
    console.log(person.age)
    console.log(person["property with spaces"])
    console.log(person.contact.phone.work);
-   console.log(person.addresses[1].city);   
+   console.log(person.addresses[1].city);
+   
+   
