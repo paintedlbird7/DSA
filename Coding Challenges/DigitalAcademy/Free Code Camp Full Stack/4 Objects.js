@@ -1,4 +1,4 @@
-// Objects
+// Objects                                 1-23-25
 // Properties of an object
 const person = {
     name: "Alice",
@@ -24,4 +24,18 @@ const person = {
    console.log(person.contact.phone.work);
    console.log(person.addresses[1].city);
    
+   // Review say hello
+   function greeting(name){
+    console.log("Hello, "+name+"!")
+   }
+   greeting("Rosa")
    
+   // Object with A Method
+   const person2 = {
+    name: "Bob",
+    age: 30,
+    sayHello: function (){
+     return "Hello, my name is " + this.name;
+    } 
+   }
+   console.log(person2.sayHello());   
