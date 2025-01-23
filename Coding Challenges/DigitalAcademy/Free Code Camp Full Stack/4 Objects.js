@@ -38,4 +38,6 @@ const person = {
      return "Hello, my name is " + this.name;
     } 
    }
-   console.log(person2.sayHello());   
+   console.log(person2.sayHello());
+   
+   
