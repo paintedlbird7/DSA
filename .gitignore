@@ -1,0 +1,28 @@
+# Ignore node_modules (dependencies)
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore compiled binaries (e.g., node-pre-gyp, native modules, etc.)
+*.bin
+*.exe
+*.dll
+*.out
+*.app
+
+# Ignore temporary files
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Ignore build artifacts
+build/
+dist/
+
+# Ignore coverage files from testing tools
+coverage/
+
+# Ignore .env files (stores environment variables)
+.env
