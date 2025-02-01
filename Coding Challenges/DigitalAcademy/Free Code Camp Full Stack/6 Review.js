@@ -12,3 +12,9 @@ console.log(obj.toString()); // "[object Object]"
 const fruits = ["apple", "banana", "orange"]
 console.log(fruits.length) // 3
 
+// Hoisting
+sayHello(); // Hello World
+function sayHello(){
+ console.log("Hello world");
+}
+
